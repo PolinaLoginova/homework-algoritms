@@ -1,3 +1,5 @@
+/*Напишите функцию вычисляющую праймориал числа. Программа должна работать не более чем за O(n*log log n) шагов.*/
+
 #include <iostream>
 #include <cmath>
 
@@ -5,7 +7,7 @@ using namespace std;
 
 int primorial(int n, int sum=1)
 {
-  // cin >> n;
+  
 
    bool *rosa = new bool[n];
 
